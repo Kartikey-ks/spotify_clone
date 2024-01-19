@@ -77,7 +77,9 @@ body{
 }
 .library {
     color: #b3b3b3;
-    margin: 20px;
+    margin: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     font-size: x-large;
     display: flex;
     align-items: end;
@@ -192,4 +194,21 @@ body{
     background-size: 100%;
     background-position-x: center;
     border-radius: 5px;
+}
+
+/*Playlist Ends*/
+
+
+.main-cont {
+    height: 635px;
+    width: 1140px;
+    margin-left: 390px;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    background-image: linear-gradient(#21125e,#131219, #121212);
+}
+.greeting {
+    margin-top: 60px;
+    margin-left:25px;
 }
